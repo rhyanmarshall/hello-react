@@ -13,3 +13,7 @@ html, body, #root {
 .header { text-align: center; }
 .logo { width: 120px; height: 120px; }
 .lead { font-size: 1.1rem; color: #334155; }
+
+.controls { margin-top: 12px; }
+.controls input { padding: 6px 8px; font-size: 1rem; }
+.logo.tilt { transform: rotate(12deg); transition: transform 160ms ease; }
